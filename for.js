@@ -4,7 +4,16 @@
 // Challenge 1
 // Use a for statement to log to the console all even numbers between 25 and 75.
 
-
+for (var i = 25; i < 75; i++){
+  if (i % 2 === 0){
+    console.log(i)
+  }
+  
+}
+// Creating a for loop, declaring a varible of i which is valued between 25 and 75.  
+// As we itterate through this for loop we are checking if a condition is met on line 8.
+// This condition is saying is the number we're on is divisble by 2 with a remainder of 0
+// If condition is met console.log the number.
 
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
